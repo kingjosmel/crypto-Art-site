@@ -1,5 +1,5 @@
 import Cards from "./Cards"
-import image from '../assets/crypto-image/Image-7.png'
+import image from '../assets/crypto-image/Frame.png'
 
 export default function Description() {
     return (
