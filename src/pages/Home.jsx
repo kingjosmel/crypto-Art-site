@@ -1,10 +1,10 @@
 import Nav from "../layOutComps/Nav";
 import Hero from '../components/Hero'
 import SlideImg from "../components/SlideImg";
-import Featured from "../components/Featured";
 import MeetThepunks from "../components/MeetThepunks";
 import Description from "../components/Description";
 import Info from "../components/Info";
+import { HoverImageLinks } from "../components/HoverImageLinks";
 
 export default function Home() {
     return (
@@ -12,10 +12,11 @@ export default function Home() {
          <Nav />
          <Hero />
          <SlideImg />
-         <Featured />
+         <HoverImageLinks />
          <MeetThepunks />
          <Description />
          <Info />
+
         </>
     )
 }
