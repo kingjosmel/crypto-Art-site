@@ -3,9 +3,6 @@ import { SlSocialTwitter } from "react-icons/sl";
 import { FaDiscord } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-
-
-
 export default function Nav() {
     return (
         <div className='flex justify-between items-center w-[90%] mx-auto mt-4'> 
