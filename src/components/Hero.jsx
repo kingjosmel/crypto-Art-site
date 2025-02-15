@@ -6,9 +6,11 @@ export default function Hero () {
             </h1>
             <p className="text-center py-11 md:w-[540px] text-lg">10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain.</p>
 
+            <a href="/fileupload">
             <button className="bg-white text-black py-2 px-4 rounded-full">
                 Mint <span className="font-semibold">now</span>
             </button>
+            </a>
         </div>
     )
 }
